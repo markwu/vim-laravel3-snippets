@@ -169,6 +169,38 @@ snippet Database # Laravel: Database::raw()
 snippet Database # Laravel: Database::table()
 	Database::table(${1:$table}, ${2:$connection});
 
+snippet Eloquent # Eloquent: belongs_to
+	
+	public function ${1}()
+	{
+	    return $this->belongs_to(${2});
+	}
+	
+
+snippet Eloquent # Eloquent: has_many
+	
+	public function ${1}()
+	{
+	    return $this->has_many(${2});
+	}
+	
+
+snippet Eloquent # Eloquent: has_many_and_belongs_to
+	
+	public function ${1}()
+	{
+	    return $this->has_many_and_belongs_to(${2});
+	}
+	
+
+snippet Eloquent # Eloquent: has_one
+	
+	public function ${1}()
+	{
+	    return $this->has_one(${2});
+	}
+	
+
 snippet Error # Laravel: Error::exception()
 	Error::exception(${1:$exception});
 
@@ -583,6 +615,18 @@ snippet Router # Laravel: Router::patterns()
 snippet Router # Laravel: Router::register()
 	Router::register(${1:$method}, ${2:$route}, ${3:$action});
 
+snippet resource # Laravel: Resources
+	
+	// ${1} Resource
+	Route::get('${1}s', array('as' => '${1}s', 'uses' => '${1}s@index'));
+	Route::get('${1}s/(:any)', array('as' => '${1}', 'uses' => '${1}s@show'));
+	Route::get('${1}s/new', array('as' => 'new_${1}', 'uses' => '${1}s@new'));
+	Route::get('${1}s/(:any)/edit', array('as' => 'edit_${1}', 'uses' => '${1}s@edit'));
+	Route::post('${1}s', '${1}s@create');
+	Route::put('${1}s/(:any)', '${1}s@update');
+	Route::delete('${1}s/(:any)', '${1}s@destroy');
+	
+
 snippet Router # Laravel: Router::route()
 	Router::route(${1:$method}, ${2:$uri});
 
@@ -749,6 +793,19 @@ snippet View # Laravel: View::of()
 snippet View # Laravel: View::share()
 	View::share(${1:$key}, ${2:$value});
 
+snippet controller # Laravel - Basic Controller
+	
+	<?php
+	
+	class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1_Controller/:ControllerName}} extends ${2:Base_}Controller
+	{
+	
+		$0
+	
+	}
+	
+	
+
 snippet elif
 	
 	@if(${1:condition})
@@ -806,6 +863,19 @@ snippet lay
 	    ${3:// more code}
 	    
 	@endsection
+	
+
+snippet model # Laravel - Basic Model
+	
+	<?php
+	
+	class ${1:${TM_FILENAME/(.+)\..+|.*/\u$1/:ModelName}} extends Eloquent
+	{
+	
+		$0
+	
+	}
+	
 	
 
 snippet sec
