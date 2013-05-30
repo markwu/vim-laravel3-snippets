@@ -1,7 +1,7 @@
 vim-laravel3-snippets
 =====================
 
-This is the snippets file for Laraveli 3. You can use
+This is the snippets file for Laravel 3. You can use
 
 > `:set ft=php.laravel`
 
