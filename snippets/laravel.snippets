@@ -1,172 +1,172 @@
-snippet Asset # Laravel: Asset::container()
+snippet Asset # Laravel 3: Asset::container()
 	Asset::container(${1:$container});
 
-snippet Auth # Laravel: Auth::attempt()
+snippet Auth # Laravel 3: Auth::attempt()
 	Auth::attempt(${1:$username}, ${2:$password}, ${3:$remember});
 
-snippet Auth # Laravel: Auth::check()
+snippet Auth # Laravel 3: Auth::check()
 	Auth::check();
 
-snippet Auth # Laravel: Auth::guest()
+snippet Auth # Laravel 3: Auth::guest()
 	Auth::guest();
 
-snippet Auth # Laravel: Auth::login()
+snippet Auth # Laravel 3: Auth::login()
 	Auth::login(${1:$user}, ${2:$remember});
 
-snippet Auth # Laravel: Auth::logout()
+snippet Auth # Laravel 3: Auth::logout()
 	Auth::logout();
 
-snippet Auth # Laravel: Auth::user()
+snippet Auth # Laravel 3: Auth::user()
 	Auth::user();
 
-snippet Autoloader # Laravel: Autoloader::alias()
+snippet Autoloader # Laravel 3: Autoloader::alias()
 	Autoloader::alias(${1:$class}, ${2:$alias});
 
-snippet Autoloader # Laravel: Autoloader::directories()
+snippet Autoloader # Laravel 3: Autoloader::directories()
 	Autoloader::directories(${1:$directory});
 
-snippet Autoloader # Laravel: Autoloader::load()
+snippet Autoloader # Laravel 3: Autoloader::load()
 	Autoloader::load(${1:$class});
 
-snippet Autoloader # Laravel: Autoloader::map()
+snippet Autoloader # Laravel 3: Autoloader::map()
 	Autoloader::map(${1:$mappings});
 
-snippet Autoloader # Laravel: Autoloader::namespaces()
+snippet Autoloader # Laravel 3: Autoloader::namespaces()
 	Autoloader::namespaces(${1:$mappings}, ${2:$append});
 
-snippet Autoloader # Laravel: Autoloader::underscored()
+snippet Autoloader # Laravel 3: Autoloader::underscored()
 	Autoloader::underscored(${1:$mappings});
 
-snippet Bundle # Laravel: Bundle::all()
+snippet Bundle # Laravel 3: Bundle::all()
 	Bundle::all();
 
-snippet Bundle # Laravel: Bundle::assets()
+snippet Bundle # Laravel 3: Bundle::assets()
 	Bundle::assets(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::class_prefix()
+snippet Bundle # Laravel 3: Bundle::class_prefix()
 	Bundle::class_prefix(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::disable()
+snippet Bundle # Laravel 3: Bundle::disable()
 	Bundle::disable(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::element()
+snippet Bundle # Laravel 3: Bundle::element()
 	Bundle::element(${1:$identifier});
 
-snippet Bundle # Laravel: Bundle::exists()
+snippet Bundle # Laravel 3: Bundle::exists()
 	Bundle::exists(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::get()
+snippet Bundle # Laravel 3: Bundle::get()
 	Bundle::get(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::handles()
+snippet Bundle # Laravel 3: Bundle::handles()
 	Bundle::handles(${1:$uri});
 
-snippet Bundle # Laravel: Bundle::identifier()
+snippet Bundle # Laravel 3: Bundle::identifier()
 	Bundle::identifier(${1:$bundle}, ${2:$element});
 
-snippet Bundle # Laravel: Bundle::name()
+snippet Bundle # Laravel 3: Bundle::name()
 	Bundle::name(${1:$identifier});
 
-snippet Bundle # Laravel: Bundle::names()
+snippet Bundle # Laravel 3: Bundle::names()
 	Bundle::names();
 
-snippet Bundle # Laravel: Bundle::option()
+snippet Bundle # Laravel 3: Bundle::option()
 	Bundle::option(${1:$bundle}, ${2:$option});
 
-snippet Bundle # Laravel: Bundle::parse()
+snippet Bundle # Laravel 3: Bundle::parse()
 	Bundle::parse(${1:$identifier});
 
-snippet Bundle # Laravel: Bundle::path()
+snippet Bundle # Laravel 3: Bundle::path()
 	Bundle::path(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::prefix()
+snippet Bundle # Laravel 3: Bundle::prefix()
 	Bundle::prefix(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::register()
+snippet Bundle # Laravel 3: Bundle::register()
 	Bundle::register(${1:$bundle}, ${2:$config});
 
-snippet Bundle # Laravel: Bundle::resolve()
+snippet Bundle # Laravel 3: Bundle::resolve()
 	Bundle::resolve(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::routed()
+snippet Bundle # Laravel 3: Bundle::routed()
 	Bundle::routed(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::routes()
+snippet Bundle # Laravel 3: Bundle::routes()
 	Bundle::routes(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::start()
+snippet Bundle # Laravel 3: Bundle::start()
 	Bundle::start(${1:$bundle});
 
-snippet Bundle # Laravel: Bundle::started()
+snippet Bundle # Laravel 3: Bundle::started()
 	Bundle::started(${1:$bundle});
 
-snippet Cache # Laravel: Cache::driver()
+snippet Cache # Laravel 3: Cache::driver()
 	Cache::driver(${1:$driver});
 
-snippet Command # Laravel: Command::options()
+snippet Command # Laravel 3: Command::options()
 	Command::options(${1:$argv});
 
-snippet Command # Laravel: Command::resolve()
+snippet Command # Laravel 3: Command::resolve()
 	Command::resolve(${1:$bundle}, ${2:$task});
 
-snippet Command # Laravel: Command::run()
+snippet Command # Laravel 3: Command::run()
 	Command::run(${1:$arguments});
 
-snippet Config # Laravel: Config::get()
+snippet Config # Laravel 3: Config::get()
 	Config::get(${1:$key}, ${2:$default});
 
-snippet Config # Laravel: Config::has()
+snippet Config # Laravel 3: Config::has()
 	Config::has(${1:$key});
 
-snippet Config # Laravel: Config::load()
+snippet Config # Laravel 3: Config::load()
 	Config::load(${1:$bundle}, ${2:$file});
 
-snippet Config # Laravel: Config::set()
+snippet Config # Laravel 3: Config::set()
 	Config::set(${1:$key}, ${2:$value});
 
-snippet Controller # Laravel: Controller::call()
+snippet Controller # Laravel 3: Controller::call()
 	Controller::call(${1:$destination}, ${2:$parameters});
 
-snippet Controller # Laravel: Controller::resolve()
+snippet Controller # Laravel 3: Controller::resolve()
 	Controller::resolve(${1:$bundle}, ${2:$controller});
 
-snippet Cookie # Laravel: Cookie::forever()
+snippet Cookie # Laravel 3: Cookie::forever()
 	Cookie::forever(${1:$name}, ${2:$value}, ${3:$path}, ${4:$domain}, ${5:$secure});
 
-snippet Cookie # Laravel: Cookie::forget()
+snippet Cookie # Laravel 3: Cookie::forget()
 	Cookie::forget(${1:$name}, ${2:$path}, ${3:$domain}, ${4:$secure});
 
-snippet Cookie # Laravel: Cookie::get()
+snippet Cookie # Laravel 3: Cookie::get()
 	Cookie::get(${1:$name}, ${2:$default});
 
-snippet Cookie # Laravel: Cookie::has()
+snippet Cookie # Laravel 3: Cookie::has()
 	Cookie::has(${1:$name});
 
-snippet Cookie # Laravel: Cookie::put()
+snippet Cookie # Laravel 3: Cookie::put()
 	Cookie::put(${1:$name}, ${2:$value}, ${3:$minutes}, ${4:$path}, ${5:$domain}, ${6:$secure});
 
-snippet Cookie # Laravel: Cookie::send()
+snippet Cookie # Laravel 3: Cookie::send()
 	Cookie::send();
 
-snippet Cookie # Laravel: Cookie::sign()
+snippet Cookie # Laravel 3: Cookie::sign()
 	Cookie::sign(${1:$name}, ${2:$value});
 
-snippet Crypter # Laravel: Crypter::decrypt()
+snippet Crypter # Laravel 3: Crypter::decrypt()
 	Crypter::decrypt(${1:$value});
 
-snippet Crypter # Laravel: Crypter::encrypt()
+snippet Crypter # Laravel 3: Crypter::encrypt()
 	Crypter::encrypt(${1:$value});
 
-snippet Database # Laravel: Database::connection()
+snippet Database # Laravel 3: Database::connection()
 	Database::connection(${1:$connection});
 
-snippet Database # Laravel: Database::profile()
+snippet Database # Laravel 3: Database::profile()
 	Database::profile();
 
-snippet Database # Laravel: Database::raw()
+snippet Database # Laravel 3: Database::raw()
 	Database::raw(${1:$value});
 
-snippet Database # Laravel: Database::table()
+snippet Database # Laravel 3: Database::table()
 	Database::table(${1:$table}, ${2:$connection});
 
 snippet Eloquent # Eloquent: belongs_to
@@ -201,421 +201,421 @@ snippet Eloquent # Eloquent: has_one
 	}
 	
 
-snippet Error # Laravel: Error::exception()
+snippet Error # Laravel 3: Error::exception()
 	Error::exception(${1:$exception});
 
-snippet Error # Laravel: Error::log()
+snippet Error # Laravel 3: Error::log()
 	Error::log(${1:$exception});
 
-snippet Error # Laravel: Error::native()
+snippet Error # Laravel 3: Error::native()
 	Error::native(${1:$code}, ${2:$error}, ${3:$file}, ${4:$line});
 
-snippet Error # Laravel: Error::shutdown()
+snippet Error # Laravel 3: Error::shutdown()
 	Error::shutdown();
 
-snippet Event # Laravel: Event::fire()
+snippet Event # Laravel 3: Event::fire()
 	Event::fire(${1:$event}, ${2:$parameters});
 
-snippet Event # Laravel: Event::first()
+snippet Event # Laravel 3: Event::first()
 	Event::first(${1:$event}, ${2:$parameters});
 
-snippet Event # Laravel: Event::listen()
+snippet Event # Laravel 3: Event::listen()
 	Event::listen(${1:$event}, ${2:$callback});
 
-snippet Event # Laravel: Event::listeners()
+snippet Event # Laravel 3: Event::listeners()
 	Event::listeners(${1:$event});
 
-snippet File # Laravel: File::append()
+snippet File # Laravel 3: File::append()
 	File::append(${1:$path}, ${2:$data});
 
-snippet File # Laravel: File::cpdir()
+snippet File # Laravel 3: File::cpdir()
 	File::cpdir(${1:$source}, ${2:$destination}, ${3:$delete}, ${4:$options});
 
-snippet File # Laravel: File::delete()
+snippet File # Laravel 3: File::delete()
 	File::delete(${1:$path});
 
-snippet File # Laravel: File::exists()
+snippet File # Laravel 3: File::exists()
 	File::exists(${1:$path});
 
-snippet File # Laravel: File::extension()
+snippet File # Laravel 3: File::extension()
 	File::extension(${1:$path});
 
-snippet File # Laravel: File::get()
+snippet File # Laravel 3: File::get()
 	File::get(${1:$path}, ${2:$default});
 
-snippet File # Laravel: File::is()
+snippet File # Laravel 3: File::is()
 	File::is(${1:$extensions}, ${2:$path});
 
-snippet File # Laravel: File::latest()
+snippet File # Laravel 3: File::latest()
 	File::latest(${1:$directory}, ${2:$options});
 
-snippet File # Laravel: File::mime()
+snippet File # Laravel 3: File::mime()
 	File::mime(${1:$extension}, ${2:$default});
 
-snippet File # Laravel: File::modified()
+snippet File # Laravel 3: File::modified()
 	File::modified(${1:$path});
 
-snippet File # Laravel: File::mvdir()
+snippet File # Laravel 3: File::mvdir()
 	File::mvdir(${1:$source}, ${2:$destination}, ${3:$options});
 
-snippet File # Laravel: File::put()
+snippet File # Laravel 3: File::put()
 	File::put(${1:$path}, ${2:$data});
 
-snippet File # Laravel: File::rmdir()
+snippet File # Laravel 3: File::rmdir()
 	File::rmdir(${1:$directory});
 
-snippet File # Laravel: File::size()
+snippet File # Laravel 3: File::size()
 	File::size(${1:$path});
 
-snippet File # Laravel: File::type()
+snippet File # Laravel 3: File::type()
 	File::type(${1:$path});
 
-snippet Filter # Laravel: Filter::alias()
+snippet Filter # Laravel 3: Filter::alias()
 	Filter::alias(${1:$filter}, ${2:$alias});
 
-snippet Filter # Laravel: Filter::parse()
+snippet Filter # Laravel 3: Filter::parse()
 	Filter::parse(${1:$filters});
 
-snippet Filter # Laravel: Filter::register()
+snippet Filter # Laravel 3: Filter::register()
 	Filter::register(${1:$name}, ${2:$callback});
 
-snippet Filter # Laravel: Filter::run()
+snippet Filter # Laravel 3: Filter::run()
 	Filter::run(${1:$collections}, ${2:$pass}, ${3:$override});
 
-snippet Form # Laravel: Form::button()
+snippet Form # Laravel 3: Form::button()
 	Form::button(${1:$value}, ${2:$attributes});
 
-snippet Form # Laravel: Form::checkbox()
+snippet Form # Laravel 3: Form::checkbox()
 	Form::checkbox(${1:$name}, ${2:$value}, ${3:$checked}, ${4:$attributes});
 
-snippet Form # Laravel: Form::close()
+snippet Form # Laravel 3: Form::close()
 	Form::close();
 
-snippet Form # Laravel: Form::date()
+snippet Form # Laravel 3: Form::date()
 	Form::date(${1:$name}, ${2:$value}, ${3:$attributes});
 
-snippet Form # Laravel: Form::email()
+snippet Form # Laravel 3: Form::email()
 	Form::email(${1:$name}, ${2:$value}, ${3:$attributes});
 
-snippet Form # Laravel: Form::file()
+snippet Form # Laravel 3: Form::file()
 	Form::file(${1:$name}, ${2:$attributes});
 
-snippet Form # Laravel: Form::hidden()
+snippet Form # Laravel 3: Form::hidden()
 	Form::hidden(${1:$name}, ${2:$value}, ${3:$attributes});
 
-snippet Form # Laravel: Form::image()
+snippet Form # Laravel 3: Form::image()
 	Form::image(${1:$url}, ${2:$name}, ${3:$attributes});
 
-snippet Form # Laravel: Form::input()
+snippet Form # Laravel 3: Form::input()
 	Form::input(${1:$type}, ${2:$name}, ${3:$value}, ${4:$attributes});
 
-snippet Form # Laravel: Form::label()
+snippet Form # Laravel 3: Form::label()
 	Form::label(${1:$name}, ${2:$value}, ${3:$attributes});
 
-snippet Form # Laravel: Form::number()
+snippet Form # Laravel 3: Form::number()
 	Form::number(${1:$name}, ${2:$value}, ${3:$attributes});
 
-snippet Form # Laravel: Form::open()
+snippet Form # Laravel 3: Form::open()
 	Form::open(${1:$action}, ${2:$method}, ${3:$attributes}, ${4:$https});
 
-snippet Form # Laravel: Form::open_for_files()
+snippet Form # Laravel 3: Form::open_for_files()
 	Form::open_for_files(${1:$action}, ${2:$method}, ${3:$attributes}, ${4:$https});
 
-snippet Form # Laravel: Form::open_secure()
+snippet Form # Laravel 3: Form::open_secure()
 	Form::open_secure(${1:$action}, ${2:$method}, ${3:$attributes});
 
-snippet Form # Laravel: Form::open_secure_for_files()
+snippet Form # Laravel 3: Form::open_secure_for_files()
 	Form::open_secure_for_files(${1:$action}, ${2:$method}, ${3:$attributes});
 
-snippet Form # Laravel: Form::password()
+snippet Form # Laravel 3: Form::password()
 	Form::password(${1:$name}, ${2:$attributes});
 
-snippet Form # Laravel: Form::radio()
+snippet Form # Laravel 3: Form::radio()
 	Form::radio(${1:$name}, ${2:$value}, ${3:$checked}, ${4:$attributes});
 
-snippet Form # Laravel: Form::reset()
+snippet Form # Laravel 3: Form::reset()
 	Form::reset(${1:$value}, ${2:$attributes});
 
-snippet Form # Laravel: Form::search()
+snippet Form # Laravel 3: Form::search()
 	Form::search(${1:$name}, ${2:$value}, ${3:$attributes});
 
-snippet Form # Laravel: Form::select()
+snippet Form # Laravel 3: Form::select()
 	Form::select(${1:$name}, ${2:$options}, ${3:$selected}, ${4:$attributes});
 
-snippet Form # Laravel: Form::submit()
+snippet Form # Laravel 3: Form::submit()
 	Form::submit(${1:$value}, ${2:$attributes});
 
-snippet Form # Laravel: Form::telephone()
+snippet Form # Laravel 3: Form::telephone()
 	Form::telephone(${1:$name}, ${2:$value}, ${3:$attributes});
 
-snippet Form # Laravel: Form::text()
+snippet Form # Laravel 3: Form::text()
 	Form::text(${1:$name}, ${2:$value}, ${3:$attributes});
 
-snippet Form # Laravel: Form::textarea()
+snippet Form # Laravel 3: Form::textarea()
 	Form::textarea(${1:$name}, ${2:$value}, ${3:$attributes});
 
-snippet Form # Laravel: Form::token()
+snippet Form # Laravel 3: Form::token()
 	Form::token();
 
-snippet Form # Laravel: Form::url()
+snippet Form # Laravel 3: Form::url()
 	Form::url(${1:$name}, ${2:$value}, ${3:$attributes});
 
-snippet HTML # Laravel: HTML::attributes()
+snippet HTML # Laravel 3: HTML::attributes()
 	HTML::attributes(${1:$attributes});
 
-snippet HTML # Laravel: HTML::decode()
+snippet HTML # Laravel 3: HTML::decode()
 	HTML::decode(${1:$value});
 
-snippet HTML # Laravel: HTML::email()
+snippet HTML # Laravel 3: HTML::email()
 	HTML::email(${1:$email});
 
-snippet HTML # Laravel: HTML::entities()
+snippet HTML # Laravel 3: HTML::entities()
 	HTML::entities(${1:$value});
 
-snippet HTML # Laravel: HTML::image()
+snippet HTML # Laravel 3: HTML::image()
 	HTML::image(${1:$url}, ${2:$alt}, ${3:$attributes});
 
-snippet HTML # Laravel: HTML::link()
+snippet HTML # Laravel 3: HTML::link()
 	HTML::link(${1:$url}, ${2:$title}, ${3:$attributes}, ${4:$https});
 
-snippet HTML # Laravel: HTML::link_to_action()
+snippet HTML # Laravel 3: HTML::link_to_action()
 	HTML::link_to_action(${1:$action}, ${2:$title}, ${3:$parameters}, ${4:$attributes});
 
-snippet HTML # Laravel: HTML::link_to_asset()
+snippet HTML # Laravel 3: HTML::link_to_asset()
 	HTML::link_to_asset(${1:$url}, ${2:$title}, ${3:$attributes}, ${4:$https});
 
-snippet HTML # Laravel: HTML::link_to_route()
+snippet HTML # Laravel 3: HTML::link_to_route()
 	HTML::link_to_route(${1:$name}, ${2:$title}, ${3:$parameters}, ${4:$attributes});
 
-snippet HTML # Laravel: HTML::link_to_secure()
+snippet HTML # Laravel 3: HTML::link_to_secure()
 	HTML::link_to_secure(${1:$url}, ${2:$title}, ${3:$attributes});
 
-snippet HTML # Laravel: HTML::link_to_secure_asset()
+snippet HTML # Laravel 3: HTML::link_to_secure_asset()
 	HTML::link_to_secure_asset(${1:$url}, ${2:$title}, ${3:$attributes});
 
-snippet HTML # Laravel: HTML::mailto()
+snippet HTML # Laravel 3: HTML::mailto()
 	HTML::mailto(${1:$email}, ${2:$title}, ${3:$attributes});
 
-snippet HTML # Laravel: HTML::ol()
+snippet HTML # Laravel 3: HTML::ol()
 	HTML::ol(${1:$list}, ${2:$attributes});
 
-snippet HTML # Laravel: HTML::script()
+snippet HTML # Laravel 3: HTML::script()
 	HTML::script(${1:$url}, ${2:$attributes});
 
-snippet HTML # Laravel: HTML::span()
+snippet HTML # Laravel 3: HTML::span()
 	HTML::span(${1:$value}, ${2:$attributes});
 
-snippet HTML # Laravel: HTML::style()
+snippet HTML # Laravel 3: HTML::style()
 	HTML::style(${1:$url}, ${2:$attributes});
 
-snippet HTML # Laravel: HTML::ul()
+snippet HTML # Laravel 3: HTML::ul()
 	HTML::ul(${1:$list}, ${2:$attributes});
 
-snippet Hash # Laravel: Hash::check()
+snippet Hash # Laravel 3: Hash::check()
 	Hash::check(${1:$value}, ${2:$hash});
 
-snippet Hash # Laravel: Hash::make()
+snippet Hash # Laravel 3: Hash::make()
 	Hash::make(${1:$value}, ${2:$rounds});
 
-snippet Input # Laravel: Input::all()
+snippet Input # Laravel 3: Input::all()
 	Input::all();
 
-snippet Input # Laravel: Input::except()
+snippet Input # Laravel 3: Input::except()
 	Input::except(${1:$keys});
 
-snippet Input # Laravel: Input::file()
+snippet Input # Laravel 3: Input::file()
 	Input::file(${1:$key}, ${2:$default});
 
-snippet Input # Laravel: Input::flash()
+snippet Input # Laravel 3: Input::flash()
 	Input::flash(${1:$filter}, ${2:$keys});
 
-snippet Input # Laravel: Input::flush()
+snippet Input # Laravel 3: Input::flush()
 	Input::flush();
 
-snippet Input # Laravel: Input::get()
+snippet Input # Laravel 3: Input::get()
 	Input::get(${1:$key}, ${2:$default});
 
-snippet Input # Laravel: Input::had()
+snippet Input # Laravel 3: Input::had()
 	Input::had(${1:$key});
 
-snippet Input # Laravel: Input::has()
+snippet Input # Laravel 3: Input::has()
 	Input::has(${1:$key});
 
-snippet Input # Laravel: Input::old()
+snippet Input # Laravel 3: Input::old()
 	Input::old(${1:$key}, ${2:$default});
 
-snippet Input # Laravel: Input::only()
+snippet Input # Laravel 3: Input::only()
 	Input::only(${1:$keys});
 
-snippet Input # Laravel: Input::upload()
+snippet Input # Laravel 3: Input::upload()
 	Input::upload(${1:$key}, ${2:$path});
 
-snippet IoC # Laravel: IoC::controller()
+snippet IoC # Laravel 3: IoC::controller()
 	IoC::controller(${1:$name}, ${2:$resolver});
 
-snippet IoC # Laravel: IoC::core()
+snippet IoC # Laravel 3: IoC::core()
 	IoC::core(${1:$name}, ${2:$parameters});
 
-snippet IoC # Laravel: IoC::instance()
+snippet IoC # Laravel 3: IoC::instance()
 	IoC::instance(${1:$name}, ${2:$instance});
 
-snippet IoC # Laravel: IoC::register()
+snippet IoC # Laravel 3: IoC::register()
 	IoC::register(${1:$name}, ${2:$resolver}, ${3:$singleton});
 
-snippet IoC # Laravel: IoC::registered()
+snippet IoC # Laravel 3: IoC::registered()
 	IoC::registered(${1:$name});
 
-snippet IoC # Laravel: IoC::resolve()
+snippet IoC # Laravel 3: IoC::resolve()
 	IoC::resolve(${1:$name}, ${2:$parameters});
 
-snippet IoC # Laravel: IoC::singleton()
+snippet IoC # Laravel 3: IoC::singleton()
 	IoC::singleton(${1:$name}, ${2:$resolver});
 
-snippet Lang # Laravel: Lang::has()
+snippet Lang # Laravel 3: Lang::has()
 	Lang::has(${1:$key}, ${2:$language});
 
-snippet Lang # Laravel: Lang::line()
+snippet Lang # Laravel 3: Lang::line()
 	Lang::line(${1:$key}, ${2:$replacements}, ${3:$language});
 
-snippet Lang # Laravel: Lang::load()
+snippet Lang # Laravel 3: Lang::load()
 	Lang::load(${1:$bundle}, ${2:$language}, ${3:$file});
 
-snippet Log # Laravel: Log::exception()
+snippet Log # Laravel 3: Log::exception()
 	Log::exception(${1:$e});
 
-snippet Log # Laravel: Log::write()
+snippet Log # Laravel 3: Log::write()
 	Log::write(${1:$type}, ${2:$message});
 
-snippet Memcached # Laravel: Memcached::connection()
+snippet Memcached # Laravel 3: Memcached::connection()
 	Memcached::connection();
 
-snippet PDO # Laravel: PDO::getAvailableDrivers()
+snippet PDO # Laravel 3: PDO::getAvailableDrivers()
 	PDO::getAvailableDrivers();
 
-snippet Paginator # Laravel: Paginator::make()
+snippet Paginator # Laravel 3: Paginator::make()
 	Paginator::make(${1:$results}, ${2:$total}, ${3:$per_page});
 
-snippet Paginator # Laravel: Paginator::page()
+snippet Paginator # Laravel 3: Paginator::page()
 	Paginator::page(${1:$total}, ${2:$per_page});
 
-snippet Redirect # Laravel: Redirect::home()
+snippet Redirect # Laravel 3: Redirect::home()
 	Redirect::home(${1:$status}, ${2:$https});
 
-snippet Redirect # Laravel: Redirect::to()
+snippet Redirect # Laravel 3: Redirect::to()
 	Redirect::to(${1:$url}, ${2:$status}, ${3:$https});
 
-snippet Redirect # Laravel: Redirect::to_action()
+snippet Redirect # Laravel 3: Redirect::to_action()
 	Redirect::to_action(${1:$action}, ${2:$parameters}, ${3:$status});
 
-snippet Redirect # Laravel: Redirect::to_route()
+snippet Redirect # Laravel 3: Redirect::to_route()
 	Redirect::to_route(${1:$route}, ${2:$parameters}, ${3:$status});
 
-snippet Redirect # Laravel: Redirect::to_secure()
+snippet Redirect # Laravel 3: Redirect::to_secure()
 	Redirect::to_secure(${1:$url}, ${2:$status});
 
-snippet Redis # Laravel: Redis::db()
+snippet Redis # Laravel 3: Redis::db()
 	Redis::db(${1:$name});
 
-snippet Request # Laravel: Request::ajax()
+snippet Request # Laravel 3: Request::ajax()
 	Request::ajax();
 
-snippet Request # Laravel: Request::cli()
+snippet Request # Laravel 3: Request::cli()
 	Request::cli();
 
-snippet Request # Laravel: Request::forged()
+snippet Request # Laravel 3: Request::forged()
 	Request::forged();
 
-snippet Request # Laravel: Request::ip()
+snippet Request # Laravel 3: Request::ip()
 	Request::ip(${1:$default});
 
-snippet Request # Laravel: Request::method()
+snippet Request # Laravel 3: Request::method()
 	Request::method();
 
-snippet Request # Laravel: Request::protocol()
+snippet Request # Laravel 3: Request::protocol()
 	Request::protocol();
 
-snippet Request # Laravel: Request::route()
+snippet Request # Laravel 3: Request::route()
 	Request::route();
 
-snippet Request # Laravel: Request::secure()
+snippet Request # Laravel 3: Request::secure()
 	Request::secure();
 
-snippet Request # Laravel: Request::server()
+snippet Request # Laravel 3: Request::server()
 	Request::server(${1:$key}, ${2:$default});
 
-snippet Request # Laravel: Request::spoofed()
+snippet Request # Laravel 3: Request::spoofed()
 	Request::spoofed();
 
-snippet Request # Laravel: Request::uri()
+snippet Request # Laravel 3: Request::uri()
 	Request::uri();
 
-snippet Response # Laravel: Response::download()
+snippet Response # Laravel 3: Response::download()
 	Response::download(${1:$path}, ${2:$name}, ${3:$headers});
 
-snippet Response # Laravel: Response::error()
+snippet Response # Laravel 3: Response::error()
 	Response::error(${1:$code}, ${2:$data});
 
-snippet Response # Laravel: Response::make()
+snippet Response # Laravel 3: Response::make()
 	Response::make(${1:$content}, ${2:$status}, ${3:$headers});
 
-snippet Response # Laravel: Response::prepare()
+snippet Response # Laravel 3: Response::prepare()
 	Response::prepare(${1:$response});
 
-snippet Response # Laravel: Response::view()
+snippet Response # Laravel 3: Response::view()
 	Response::view(${1:$view}, ${2:$data});
 
-snippet Route # Laravel: Route::any()
+snippet Route # Laravel 3: Route::any()
 	Route::any(${1:$route}, ${2:$action});
 
-snippet Route # Laravel: Route::controller()
+snippet Route # Laravel 3: Route::controller()
 	Route::controller(${1:$controllers}, ${2:$defaults});
 
-snippet Route # Laravel: Route::delete()
+snippet Route # Laravel 3: Route::delete()
 	Route::delete(${1:$route}, ${2:$action});
 
-snippet Route # Laravel: Route::filter()
+snippet Route # Laravel 3: Route::filter()
 	Route::filter(${1:$name}, ${2:$callback});
 
-snippet Route # Laravel: Route::get()
+snippet Route # Laravel 3: Route::get()
 	Route::get(${1:$route}, ${2:$action});
 
-snippet Route # Laravel: Route::group()
+snippet Route # Laravel 3: Route::group()
 	Route::group(${1:$attributes}, ${2:$callback});
 
-snippet Route # Laravel: Route::post()
+snippet Route # Laravel 3: Route::post()
 	Route::post(${1:$route}, ${2:$action});
 
-snippet Route # Laravel: Route::put()
+snippet Route # Laravel 3: Route::put()
 	Route::put(${1:$route}, ${2:$action});
 
-snippet Route # Laravel: Route::secure()
+snippet Route # Laravel 3: Route::secure()
 	Route::secure(${1:$method}, ${2:$route}, ${3:$action});
 
-snippet Route # Laravel: Route::secure_controller()
+snippet Route # Laravel 3: Route::secure_controller()
 	Route::secure_controller(${1:$controllers}, ${2:$defaults});
 
-snippet Route # Laravel: Route::share()
+snippet Route # Laravel 3: Route::share()
 	Route::share(${1:$routes}, ${2:$action});
 
-snippet Router # Laravel: Router::controller()
+snippet Router # Laravel 3: Router::controller()
 	Router::controller(${1:$controllers}, ${2:$defaults}, ${3:$https});
 
-snippet Router # Laravel: Router::find()
+snippet Router # Laravel 3: Router::find()
 	Router::find(${1:$name});
 
-snippet Router # Laravel: Router::group()
+snippet Router # Laravel 3: Router::group()
 	Router::group(${1:$attributes}, ${2:$callback});
 
-snippet Router # Laravel: Router::method()
+snippet Router # Laravel 3: Router::method()
 	Router::method(${1:$method});
 
-snippet Router # Laravel: Router::patterns()
+snippet Router # Laravel 3: Router::patterns()
 	Router::patterns();
 
-snippet Router # Laravel: Router::register()
+snippet Router # Laravel 3: Router::register()
 	Router::register(${1:$method}, ${2:$route}, ${3:$action});
 
-snippet resource # Laravel: Resources
+snippet resource # Laravel 3: Resources
 	
 	// ${1} Resource
 	Route::get('${1}s', array('as' => '${1}s', 'uses' => '${1}s@index'));
@@ -627,170 +627,170 @@ snippet resource # Laravel: Resources
 	Route::delete('${1}s/(:any)', '${1}s@destroy');
 	
 
-snippet Router # Laravel: Router::route()
+snippet Router # Laravel 3: Router::route()
 	Router::route(${1:$method}, ${2:$uri});
 
-snippet Router # Laravel: Router::routes()
+snippet Router # Laravel 3: Router::routes()
 	Router::routes();
 
-snippet Router # Laravel: Router::secure()
+snippet Router # Laravel 3: Router::secure()
 	Router::secure(${1:$method}, ${2:$route}, ${3:$action});
 
-snippet Router # Laravel: Router::secure_controller()
+snippet Router # Laravel 3: Router::secure_controller()
 	Router::secure_controller(${1:$controllers}, ${2:$defaults});
 
-snippet Router # Laravel: Router::share()
+snippet Router # Laravel 3: Router::share()
 	Router::share(${1:$routes}, ${2:$action});
 
-snippet Router # Laravel: Router::uses()
+snippet Router # Laravel 3: Router::uses()
 	Router::uses(${1:$action});
 
-snippet Schema # Laravel: Schema::create()
+snippet Schema # Laravel 3: Schema::create()
 	Schema::create('${1:table}', function($table){
 		$table->increments('id');
 		${2}
 		$table->timestamps();
 	});
 
-snippet Schema # Laravel: Schema::drop()
+snippet Schema # Laravel 3: Schema::drop()
 	Schema::drop('${1:table}');
 
-snippet Schema # Laravel: Schema::execute()
+snippet Schema # Laravel 3: Schema::execute()
 	Schema::execute(${1:$table});
 
-snippet Schema # Laravel: Schema::grammar()
+snippet Schema # Laravel 3: Schema::grammar()
 	Schema::grammar(${1:$connection});
 
-snippet Schema # Laravel: Schema::table()
+snippet Schema # Laravel 3: Schema::table()
 	Schema::table(${1:$table}, ${2:$callback});
 
-snippet Section # Laravel: Section::inject()
+snippet Section # Laravel 3: Section::inject()
 	Section::inject(${1:$section}, ${2:$content});
 
-snippet Section # Laravel: Section::start()
+snippet Section # Laravel 3: Section::start()
 	Section::start(${1:$section}, ${2:$content});
 
-snippet Section # Laravel: Section::stop()
+snippet Section # Laravel 3: Section::stop()
 	Section::stop();
 
-snippet Section # Laravel: Section::yield()
+snippet Section # Laravel 3: Section::yield()
 	Section::yield(${1:$section});
 
-snippet Session # Laravel: Session::factory()
+snippet Session # Laravel 3: Session::factory()
 	Session::factory(${1:$driver});
 
-snippet Session # Laravel: Session::instance()
+snippet Session # Laravel 3: Session::instance()
 	Session::instance();
 
-snippet Session # Laravel: Session::start()
+snippet Session # Laravel 3: Session::start()
 	Session::start(${1:$driver});
 
-snippet Session # Laravel: Session::started()
+snippet Session # Laravel 3: Session::started()
 	Session::started();
 
-snippet Str # Laravel: Str::ascii()
+snippet Str # Laravel 3: Str::ascii()
 	Str::ascii(${1:$value});
 
-snippet Str # Laravel: Str::classify()
+snippet Str # Laravel 3: Str::classify()
 	Str::classify(${1:$value});
 
-snippet Str # Laravel: Str::encoding()
+snippet Str # Laravel 3: Str::encoding()
 	Str::encoding();
 
-snippet Str # Laravel: Str::length()
+snippet Str # Laravel 3: Str::length()
 	Str::length(${1:$value});
 
-snippet Str # Laravel: Str::limit()
+snippet Str # Laravel 3: Str::limit()
 	Str::limit(${1:$value}, ${2:$limit}, ${3:$end});
 
-snippet Str # Laravel: Str::lower()
+snippet Str # Laravel 3: Str::lower()
 	Str::lower(${1:$value});
 
-snippet Str # Laravel: Str::plural()
+snippet Str # Laravel 3: Str::plural()
 	Str::plural(${1:$value}, ${2:$count});
 
-snippet Str # Laravel: Str::random()
+snippet Str # Laravel 3: Str::random()
 	Str::random(${1:$length}, ${2:$type});
 
-snippet Str # Laravel: Str::segments()
+snippet Str # Laravel 3: Str::segments()
 	Str::segments(${1:$value});
 
-snippet Str # Laravel: Str::singular()
+snippet Str # Laravel 3: Str::singular()
 	Str::singular(${1:$value});
 
-snippet Str # Laravel: Str::slug()
+snippet Str # Laravel 3: Str::slug()
 	Str::slug(${1:$title}, ${2:$separator});
 
-snippet Str # Laravel: Str::title()
+snippet Str # Laravel 3: Str::title()
 	Str::title(${1:$value});
 
-snippet Str # Laravel: Str::upper()
+snippet Str # Laravel 3: Str::upper()
 	Str::upper(${1:$value});
 
-snippet Str # Laravel: Str::words()
+snippet Str # Laravel 3: Str::words()
 	Str::words(${1:$value}, ${2:$words}, ${3:$end});
 
-snippet URI # Laravel: URI::current()
+snippet URI # Laravel 3: URI::current()
 	URI::current();
 
-snippet URI # Laravel: URI::full()
+snippet URI # Laravel 3: URI::full()
 	URI::full();
 
-snippet URI # Laravel: URI::is()
+snippet URI # Laravel 3: URI::is()
 	URI::is(${1:$pattern});
 
-snippet URI # Laravel: URI::segment()
+snippet URI # Laravel 3: URI::segment()
 	URI::segment(${1:$index}, ${2:$default});
 
-snippet URL # Laravel: URL::base()
+snippet URL # Laravel 3: URL::base()
 	URL::base();
 
-snippet URL # Laravel: URL::current()
+snippet URL # Laravel 3: URL::current()
 	URL::current();
 
-snippet URL # Laravel: URL::full()
+snippet URL # Laravel 3: URL::full()
 	URL::full();
 
-snippet URL # Laravel: URL::home()
+snippet URL # Laravel 3: URL::home()
 	URL::home(${1:$https});
 
-snippet URL # Laravel: URL::to()
+snippet URL # Laravel 3: URL::to()
 	URL::to(${1:$url}, ${2:$https});
 
-snippet URL # Laravel: URL::to_action()
+snippet URL # Laravel 3: URL::to_action()
 	URL::to_action(${1:$action}, ${2:$parameters});
 
-snippet URL # Laravel: URL::to_asset()
+snippet URL # Laravel 3: URL::to_asset()
 	URL::to_asset(${1:$url}, ${2:$https});
 
-snippet URL # Laravel: URL::to_route()
+snippet URL # Laravel 3: URL::to_route()
 	URL::to_route(${1:$name}, ${2:$parameters});
 
-snippet URL # Laravel: URL::to_secure()
+snippet URL # Laravel 3: URL::to_secure()
 	URL::to_secure(${1:$url});
 
-snippet URL # Laravel: URL::transpose()
+snippet URL # Laravel 3: URL::transpose()
 	URL::transpose(${1:$uri}, ${2:$parameters});
 
-snippet Validator # Laravel: Validator::make()
+snippet Validator # Laravel 3: Validator::make()
 	Validator::make(${1:$attributes}, ${2:$rules}, ${3:$messages});
 
-snippet Validator # Laravel: Validator::register()
+snippet Validator # Laravel 3: Validator::register()
 	Validator::register(${1:$name}, ${2:$validator});
 
-snippet View # Laravel: View::composer()
+snippet View # Laravel 3: View::composer()
 	View::composer(${1:$view}, ${2:$composer});
 
-snippet View # Laravel: View::make()
+snippet View # Laravel 3: View::make()
 	View::make(${1:$view}, ${2:$data});
 
-snippet View # Laravel: View::name()
+snippet View # Laravel 3: View::name()
 	View::name(${1:$view}, ${2:$name});
 
-snippet View # Laravel: View::of()
+snippet View # Laravel 3: View::of()
 	View::of(${1:$name}, ${2:$data});
 
-snippet View # Laravel: View::share()
+snippet View # Laravel 3: View::share()
 	View::share(${1:$key}, ${2:$value});
 
 snippet controller # Laravel - Basic Controller
