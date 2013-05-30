@@ -15,10 +15,10 @@ Or, You also can set the filetype based on directory, like
 
 > `autocmd BufNewFile,BufRead ~/proj/src/php/laravel/*.php setlocal filetype=php.laravel`
 
-Thanks @tlvince provide this [tip](https://github.com/markwu/vim-laravel3-snippets/issues/2)
+Thanks [@tlvince](https://github.com/tlvince) provide this [tips](https://github.com/markwu/vim-laravel3-snippets/issues/2)
 
 BTW, you will need [SnipMate](https://github.com/garbas/vim-snipmate) or [UltiSnips](https://github.com/SirVer/ultisnips) for using this snippets.
 
-Most important is, this snippets based on [laravel 3 for sublime text](https://github.com/laravel/sublime-snippets) from @daylerees
+Most important is, this snippets based on [laravel 3 for sublime text](https://github.com/laravel/sublime-snippets) from [@daylerees](https://github.com/daylerees)
 
 Mark
